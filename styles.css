@@ -11,10 +11,14 @@ html body{
     width: 100%;
 }
 #code-bg{
-    background: #ccc;
+    background: #eee;
     width: 96%;
     margin: 0 auto;
     border-radius: 3px;
+}
+code{
+    position: relative;
+    left: 20px;
 }
 main{
     margin: 0 auto;
