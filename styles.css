@@ -1,7 +1,5 @@
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 600px;
-    
 }
 body{
     background: rgb(254, 254, 255);
@@ -38,4 +36,5 @@ p, li{
     font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
 }
+
 
