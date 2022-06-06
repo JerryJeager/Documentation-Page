@@ -3,12 +3,21 @@ html{
 }
 body{
     background: rgb(254, 254, 255);
+    width: 100%
+}
+html body{
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
 }
 #code-bg{
     background: #ccc;
     width: 96%;
     margin: 0 auto;
     border-radius: 3px;
+}
+main{
+    margin: 0 auto;
 }
 header{
     font-weight: bold;
@@ -17,7 +26,8 @@ header{
 }
 .nav-link{
     text-decoration: none;
-    color: black;
+    color: rgb(72, 72, 82);
+
 }
 nav{
     text-align: center;
@@ -37,4 +47,31 @@ p, li{
     font-family: 'Noto Sans', sans-serif;
 }
 
+@media screen and (min-width: 1024px){
+    
+    #navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        border-right: 3px solid rgb(123, 123, 126);
+    }
+    nav{
+        width: 20%;
+    }
+    main{
+        width: 75%;
+        margin-left: 25%;
+    }
+    #nav-head{
+        font-size: 30px;
+    }
+    header{
+        font-size: 29px;
+    }
+    .nav-link{
+    font-size: 17px;
+}
+}
 
